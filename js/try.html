@@ -1,0 +1,30 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>js实现选中下拉框选项变换背景颜色</title>
+    <script type="text/javascript">
+        function aa() {
+            document.bgColor = "Orange";
+        }
+
+
+        function change() {
+            var x = document.getElementById("xx").value;
+            document.bgColor = x;
+        }
+    </script>
+</head>
+
+
+<body οnlοad="aa()">
+    <select id="xx" οnchange="change(value)">
+        <option value="Orange">橙色</option>
+        <option value="pink">粉色</option>
+        <option value="green">绿色</option>
+    </select>
+</body>
+
+</html>

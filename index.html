@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>今日の色</title>
+</head>
+
+<body>
+    <div class="card">
+        <h1 class="mood">今日はどんな気持ちでしょうか？</h1>
+        <form class="form" method="GET">
+            <select name="answer" id="answer">
+                <option value=""></option>
+                <option value="#F0EADD">不満</option>
+                <option value="#758F5B">落ち着く</option>
+                <option value="#414E41">無念</option>
+                <option value="#F0EA41">楽しい</option>
+                <option value="#0D1A1A">不安</option>
+                <option value="#9C341A">腹立つ</option>
+                <option value="#DD0D1A">緊張</option>
+                <option value="#F7F7D0">期待</option>
+                <option value="#8FB6DD">悲しい</option>
+                <option value="#273427">苦しい</option>
+                <option value="random">わからない</option>
+            </select>
+            <button type="button" onclick="changeColor()">提出</button>
+        </form>
+
+
+
+
+    </div>
+
+</body>
+<script src="./js/app.js"></script>
+
+</html>
