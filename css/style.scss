@@ -18,12 +18,16 @@
       background-color: rgb(172, 145, 125);
       width: 20vw;
       height: 3rem;
+
       option {
         font-size: 1rem;
         background-color: rgb(248, 232, 219);
       }
     }
+
     button {
+      border-radius: 10px;
+      margin-left: 0.5rem;
       color: rgb(204, 197, 197);
       font-size: 1.3rem;
 
@@ -51,6 +55,9 @@ h1 {
       select {
         width: 50vw;
         margin-bottom: 2rem;
+      }
+      button {
+        display: none;
       }
     }
   }
